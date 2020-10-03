@@ -1,0 +1,52 @@
+{
+  "name": "@larsroettig/pwa-studio-extension-starter",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "author": "Lars Roettig <hello@larsroettig.de>",
+  "license": "MIT",
+  "keywords": [
+    "magento",
+    "starter",
+    "pwa-studio",
+    "extension"
+  ],
+  "pwa-studio": {
+    "targets": {
+      "intercept": "src/intercept.js"
+    }
+  },
+  "scripts": {
+    "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
+    "lint": "eslint --ignore-path .gitignore 'src/**/{*.js,package.json}'"
+  },
+  "lint-staged": {
+    "./src/**/*.{ts,js,jsx,tsx}": [
+      "yarn lint --fix",
+      "yarn format"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "peerDependencies": {
+    "@magento/pwa-buildpack": ">=6.0.0",
+    "react": "*"
+  },
+  "devDependencies": {
+    "@magento/eslint-config": "latest",
+    "@testing-library/react": "^11.0.4",
+    "babel-eslint": "~10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-package-json": "^0.1.4",
+    "eslint-plugin-react": "^7.9.1",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "husky": "^4.3.0",
+    "prettier": "^1.9.2",
+    "prettier-check": "^2.0.0",
+    "lint-staged": "^10.0.8"
+  }
+}
