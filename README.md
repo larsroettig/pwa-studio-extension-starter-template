@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/larsroettig/pwa-studio-extension-starter/doc/assets/starter_img.jpg">
+</p>
+
+
 # PWA Studio extension starter template
 
 An extension starter for Magento PWA Studio includes all you need to build an amazing extension
