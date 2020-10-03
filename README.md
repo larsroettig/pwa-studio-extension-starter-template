@@ -1,8 +1,6 @@
 
 # PWA Studio extension starter template
 
----
-
 A extension starter for Magentp PWA Studio includes all you need to build amazing extension.
 
 - 📏 **ESLint** — Pluggable JavaScript linter
