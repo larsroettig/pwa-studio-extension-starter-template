@@ -17,7 +17,9 @@
   },
   "scripts": {
     "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
-    "lint": "eslint --ignore-path .gitignore 'src/**/{*.js,package.json}'"
+    "lint": "eslint --ignore-path .gitignore 'src/**/{*.js,package.json}'",
+    "test": "jest",
+    "test:dev": "jest --watch"
   },
   "lint-staged": {
     "./src/**/*.{ts,js,jsx,tsx}": [
@@ -45,8 +47,9 @@
     "eslint-plugin-react": "^7.9.1",
     "eslint-plugin-react-hooks": "^1.6.0",
     "husky": "^4.3.0",
+    "jest": "^26.4.2",
+    "lint-staged": "^10.0.8",
     "prettier": "^1.9.2",
-    "prettier-check": "^2.0.0",
-    "lint-staged": "^10.0.8"
+    "prettier-check": "^2.0.0"
   }
 }
