@@ -7,12 +7,12 @@
 
 An extension starter for Magento PWA Studio includes all you need to build an amazing extension
 
-- 📏 **ESLint** — Pluggable JavaScript linter
+- 📏 **ESLint** - JavaScript linter
 - 💖 **Prettier** - Opinionated Code Formatter
 - 📄 **Jest** - Setup React Testing Library
-- 🐶 **Husky** — Use git hooks with ease
-- 🗂 **Basic structure**
-- ⚡  **Automatically installs project's peerDependencies (as devDependencies)** 
+- 🐶 **Husky** - Use git hooks with ease
+- ⚡  **Automatically installs project's peer dependencies** - 
+- 🗂 **Basic Module structure**
 
 
 ## Creating a repository from a template
