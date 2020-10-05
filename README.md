@@ -12,6 +12,13 @@ An extension starter for Magento PWA Studio includes all you need to build an am
 - 📄 **Jest** - Setup React Testing Library
 - 🐶 **Husky** — Use git hooks with ease
 - 🗂 **Basic structure**
+- ⚡  **Automatically installs project's peerDependencies (as devDependencies)** 
+
+
+## Creating a repository from a template
+
+https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template
+
 
 ## 🚀 Getting started
 
