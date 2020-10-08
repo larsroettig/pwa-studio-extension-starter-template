@@ -5,6 +5,9 @@
 
 # PWA Studio extension starter template
 
+[![Known Vulnerabilities](https://snyk.io/test/github/larsroettig/pwa-studio-extension-starter/badge.svg?targetFile=package.json)](https://snyk.io/test/github/larsroettig/pwa-studio-extension-starter?targetFile=package.json)
+
+
 An extension starter for Magento PWA Studio includes all you need to build an amazing extension
 
 - 📏 **ESLint** - JavaScript linter
